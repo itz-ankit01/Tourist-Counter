@@ -1,0 +1,85 @@
+/* Default Styles */
+body {
+  background-image: url("station.jpg");
+  background-size: cover;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 10vh auto;
+  background: rgba(255, 255, 255, 0.5);
+  width: 50%;
+  height: 70vh;
+  border: 3px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  border: 1px solid black;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin: 5px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#increment-btn {
+  background: #212121;
+}
+
+#save-btn {
+  background: #1c7947;
+}
+
+#save-el {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  button {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 95%;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  button {
+    width: 130px;
+  }
+}
